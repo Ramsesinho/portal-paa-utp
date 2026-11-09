@@ -1,0 +1,5 @@
+RewriteEngine On
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "no-referrer"
+Header set X-Robots-Tag "noindex, nofollow"
+Header set Content-Security-Policy "default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
